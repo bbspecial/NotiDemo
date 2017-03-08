@@ -4,7 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="8dp"
     tools:context="com.dev.bbspecial.notidemo.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/re_top"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_token"
+            android:onClick="showToken"
+            android:id="@+id/btn_showToken"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_showToken"
+            android:text="Sub"
+            android:onClick="subscribe"
+            android:id="@+id/btn_sub"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_showToken"
+            android:layout_alignParentRight="true"
+            android:text="Unsub"
+            android:onClick="unsubscribe"
+            android:id="@+id/btn_unsub"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_status"
+            android:layout_below="@+id/btn_sub"
+            android:layout_centerInParent="true"
+            android:text="Status ..."/>
+    </RelativeLayout>
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,10 +59,6 @@
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/tv_showResult"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="testtttt"
-        android:onClick="testFN"/>
+
 
 </android.support.constraint.ConstraintLayout>

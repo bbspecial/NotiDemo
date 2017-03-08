@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "667445450399",
+    "firebase_url": "https://myfirstfirebase-f6f17.firebaseio.com",
+    "project_id": "myfirstfirebase-f6f17",
+    "storage_bucket": "myfirstfirebase-f6f17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667445450399:android:52baa6ef914a8cd5",
+        "android_client_info": {
+          "package_name": "com.firebase.hello.home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667445450399-5rmec22v6u2smefalkl70fvfi0mf47q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDso5WEcDhJmcF4A0n1zpDuPMQ03FX86x4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667445450399:android:b5778a298a55455e",
+        "android_client_info": {
+          "package_name": "com.dev.bbspecial.loggeo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667445450399-5rmec22v6u2smefalkl70fvfi0mf47q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDso5WEcDhJmcF4A0n1zpDuPMQ03FX86x4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667445450399:android:673e99d25fb24980",
+        "android_client_info": {
+          "package_name": "com.dev.bbspecial.notidemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667445450399-5rmec22v6u2smefalkl70fvfi0mf47q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDso5WEcDhJmcF4A0n1zpDuPMQ03FX86x4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
